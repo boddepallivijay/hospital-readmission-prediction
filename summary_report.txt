@@ -1,0 +1,30 @@
+=== Hospital Readmission Prediction Report ===
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.68      0.65      2649
+           1       0.59      0.52      0.55      2351
+
+    accuracy                           0.60      5000
+   macro avg       0.60      0.60      0.60      5000
+weighted avg       0.60      0.60      0.60      5000
+
+ROC AUC Score: 0.6354
+
+Confusion Matrix:
+[[1807  842]
+ [1133 1218]]
+
+Top 10 Feature Importances:
+n_lab_procedures     0.176760
+n_medications        0.147074
+time_in_hospital     0.099056
+age                  0.070548
+diag_1               0.069074
+medical_specialty    0.067674
+diag_3               0.067105
+diag_2               0.064914
+n_procedures         0.060927
+n_inpatient          0.054748
+dtype: float64
